@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class Abrar {
-    public static int Average (int a , int b , int c){
-        int avg = (a+b+c)/3;
+    public static int Average (int a , int b){
+        int avg = (a+b)/2;
         System.out.println("The average of these number is ; "+ avg);
         return avg;
     }
@@ -14,8 +14,6 @@ public class Abrar {
         int a = sc.nextInt();
         System.out.println("Enter the number");
         int b = sc.nextInt();
-        System.out.println("Enter the number");
-        int c = sc.nextInt();
-        System.out.println(Average(a,b,c));
+        System.out.println(Average(a,b));
     }
 }
